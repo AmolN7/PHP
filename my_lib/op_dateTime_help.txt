@@ -1,0 +1,9 @@
+		$obj_dateTime = new op_dateTime();
+		$date_1 = '2017-12-18 12:10:03';
+		$date_2 = '2018-12-18 13:11:05'; 
+		$interval = $obj_dateTime->dateDifference($date_1, $date_2,'%a:%h:%i:%s');
+		echo '<pre>';print_r($interval); echo '</pre>';
+
+
+		echo	$cenvertedTime = $obj_dateTime->dateAdd($date_1,1,1,50,30);
+
